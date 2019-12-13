@@ -5,10 +5,16 @@ namespace PierresBakery.Models
     {
         public string ItemNane { get; set; }
         public int ItemPrice { get; set; }
-        public Bread(string name; int price)
+        public int Quantity { get; set; }
+        public Bread(string name; int price, int qty)
         {
             ItemName = name;
             ItemPrice = price;
+            Quantity = qty;
+        }
+        public void AddToCart()
+        {
+            Quantity += 1;
         }
     }
 }
