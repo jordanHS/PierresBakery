@@ -12,7 +12,7 @@ namespace PierresBakery.Models
             ItemPrice = price;
             Quantity = qty;
         }
-        public void AddToCart()
+        public void Add()
         {
             Quantity += 1;
         }
