@@ -8,7 +8,9 @@ namespace PierresBakery
     {
         private static string[] Bread = {"Bread", "bread"};
         private static string[] Pastries = {"Pastries", "pastries"};
-        private static int[] Quantity = {1, 2 ,3};
+        private static int One = 1;
+        private static int Two = 2;
+        private static int Three = 3;
 
         public static void Main()
         {
@@ -19,13 +21,11 @@ namespace PierresBakery
             String selection = Console.ReadLine();
             if(Array.Exists(Bread, element => element == selection)){
                 Console.WriteLine("How many loaves would you like: one, two or three?");
-                string atringQuantity = Console.ReadLine();
+                string stringQuantity = Console.ReadLine();
                 int quantity = int.Parse(stringQuantity);
+                if(Array.Exists(Quantity, element => element == quantity));
 
             }
-
-
-
         }
     } 
 }

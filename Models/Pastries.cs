@@ -4,9 +4,9 @@ namespace PierresBakery.Models
     public class Pastry
     {
         public int ItemPrice { get; set; }
-        public Pastry(string name; int price, int qty)
+        public Pastry( int price)
         {
-            ItemPrice = price;
+            ItemPrice = 2;
         }
     }
 }

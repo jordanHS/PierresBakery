@@ -6,7 +6,7 @@ namespace PierresBakery.Models
         public int ItemPrice { get; set; }
         public Bread(int price)
         {
-            ItemPrice = price;
+            ItemPrice = 5;
         }
     }
 }
