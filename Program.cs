@@ -23,7 +23,8 @@ namespace PierresBakery
                 Console.WriteLine("How many loaves would you like: one, two or three?");
                 string stringQuantity = Console.ReadLine();
                 int quantity = int.Parse(stringQuantity);
-                if(Array.Exists(Quantity, element => element == quantity));
+                if( quantity == 3);
+                
 
             }
         }
