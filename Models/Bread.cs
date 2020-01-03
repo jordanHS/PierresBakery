@@ -3,10 +3,24 @@ namespace PierresBakery.Models
 {
     public class Bread
     {
-        public int ItemPrice { get; set; }
-        public Bread(int price)
+        public string ItemName {get; set; }
+        public int ItemQuantity {get; set; }
+         public int OrderCost { get; set; }
+        public Bread(string item, int qty, int cost)
         {
-            ItemPrice = 5;
+            ItemName = item;
+            ItemQuantity = qty;
+            OrderCost = cost;
+        }
+        public void Add()
+        {
+            ItemQuantity += 1;
+            OrderCost += 5;
+        }
+        public void Discount()
+        {
+            ItemQuantity += 3;
+            OrderCost += 10;
         }
     }
 }
