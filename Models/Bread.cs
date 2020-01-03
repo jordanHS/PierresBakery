@@ -22,5 +22,9 @@ namespace PierresBakery.Models
             ItemQuantity += 3;
             OrderCost += 10;
         }
+        public void Total()
+        {
+            return qty * cost;
+        }
     }
 }
