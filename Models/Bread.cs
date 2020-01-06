@@ -5,26 +5,26 @@ namespace PierresBakery.Models
     {
         public string ItemName {get; set; }
         public int ItemQuantity {get; set; }
-         public int OrderCost { get; set; }
-        public Bread(string item, int qty, int cost)
+         public int ItemPrice { get; set; }
+        public Bread(string bread, int qty, int price)
         {
-            ItemName = item;
+            ItemName = bread;
             ItemQuantity = qty;
-            OrderCost = cost;
+            ItemPrice = price;
         }
         public void Add()
         {
             ItemQuantity += 1;
-            OrderCost += 5;
+            ItemPrice += 5;
         }
         public void Discount()
         {
             ItemQuantity += 3;
-            OrderCost += 10;
+            ItemPrice += 10;
         }
-        public void Total()
-        {
-            return qty * cost;
-        }
+        // public void Total()
+        // {
+        //     return ItemQuantity * ItemPrice;
+        // }
     }
 }
