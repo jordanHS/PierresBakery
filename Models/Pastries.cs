@@ -3,21 +3,20 @@ namespace PierresBakery.Models
 {
     public class Pastries
     {
-        private int Item { get; }
         public int ItemQuantity { get; set; }
         public int CurrentTotal{ get; set; }
         
-        public Pastries(int item)
+        public Pastries(int qty, int cost)
         {
 
-            ItemQuantity = 0;
-            CurrentTotal = 0;
+            ItemQuantity = qty;
+            CurrentTotal = cost;
         }
         
         public void OnePastry()
         {
           AddOne();
-          Total();
+          TotalOne();
         }
         
         private void AddOne()
@@ -33,7 +32,7 @@ namespace PierresBakery.Models
         public void TwoPastries()
         {
             AddTwo();
-            TotalOne();
+            TotalTwo();
         }
 
         private void AddTwo()
@@ -43,7 +42,7 @@ namespace PierresBakery.Models
 
         private void TotalTwo()
         {
-            CurrenTotal += 4;
+            CurrentTotal += 4;
         }
 
 

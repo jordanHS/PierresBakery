@@ -6,16 +6,16 @@ namespace PierresBakery.Models
         public int ItemQuantity { get; set; }
         public int CurrentTotal { get; set; }
         
-        public Order()
+        public Bread(int qty, int cost)
         {
-            ItemQuantity = 0;
-            CurrentTotal = 0;
+            ItemQuantity = qty;
+            CurrentTotal = cost;
         }
         
         public void OneLoaf()
         {
-            AddItem();
-            Total();
+            AddOne();
+            TotalOne();
         }
         
         private void AddOne()
@@ -30,7 +30,7 @@ namespace PierresBakery.Models
 
         public void TwoLoaves()
         {
-            AddItem();
+            AddThree();
             Discount();
         }
 
