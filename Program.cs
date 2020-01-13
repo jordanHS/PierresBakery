@@ -26,6 +26,7 @@ namespace PierresBakery
                     myBread.OneLoaf();
                     Console.WriteLine("{0} loaf of bread is ${1}!", myBread.ItemQuantity, myBread.CurrentTotal);
                 }
+            Console.WriteLine("Thank you for shopping at Pierre's Bakery! Have a lovely day!");
             }
             else if (selection == "pastries" || selection == "Pastries"){
                 Pastries myPastries = new Pastries(0, 0);
@@ -44,6 +45,7 @@ namespace PierresBakery
                     myPastries.OnePastry();
                     Console.WriteLine("You bought {0} pastry for ${1}!", myPastries.ItemQuantity, myPastries.CurrentTotal);
                 }
+            Console.WriteLine("Thank you for shopping at Pierre's Bakery! Have a lovely day!");    
             }
             else {
                 Console.WriteLine("Please select bread or pastries.");
