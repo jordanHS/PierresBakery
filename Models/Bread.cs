@@ -30,19 +30,24 @@ namespace PierresBakery.Models
 
         public void TwoLoaves()
         {
-            AddThree();
+            AddTwo();
+            TotalTwo();
             Discount();
         }
 
-        private void AddThree()
+        private void AddTwo()
         {
-            ItemQuantity += 3;
+            ItemQuantity += 2;
         }
 
-        private void Discount()
+        private void TotalTwo()
         {
             CurrentTotal += 10;
         }
 
+        private void Discount()
+        {
+            ItemQuantity ++;
+        }
     }
 }
