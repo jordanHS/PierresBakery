@@ -1,15 +1,13 @@
 using System;
 namespace PierresBakery.Models
 {
-    public class Order
+    public class Bread
     {
-        public string ItemName { get; set; }
         public int ItemQuantity { get; set; }
         public int CurrentTotal { get; set; }
         
-        public Order(string item)
+        public Order()
         {
-            ItemName = item;
             ItemQuantity = 0;
             CurrentTotal = 0;
         }
@@ -20,14 +18,14 @@ namespace PierresBakery.Models
             Total();
         }
         
-        private void AddItem()
+        private void AddOne()
         {
             ItemQuantity++;
         }
 
-        private void Total()
+        private void TotalOne()
         {
-            CurrentTotal +=5;
+            CurrentTotal += 5;
         }
 
         public void TwoLoaves()
@@ -36,9 +34,9 @@ namespace PierresBakery.Models
             Discount();
         }
 
-        private void AddItem()
+        private void AddThree()
         {
-            ItemQuantity +=3;
+            ItemQuantity += 3;
         }
 
         private void Discount()
@@ -46,6 +44,5 @@ namespace PierresBakery.Models
             CurrentTotal += 10;
         }
 
-        }
     }
 }
