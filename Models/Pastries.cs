@@ -50,6 +50,7 @@ namespace PierresBakery.Models
         {
             AddThree();
             Discount();
+            TotalThree();
         }
 
         private void AddThree()
@@ -59,7 +60,12 @@ namespace PierresBakery.Models
 
         private void Discount()
         {
-           CurrentTotal +=5;
+           CurrentTotal--;
         }          
+
+        private void TotalThree()
+        {
+            CurrentTotal +=6;
+        }
     }
 }

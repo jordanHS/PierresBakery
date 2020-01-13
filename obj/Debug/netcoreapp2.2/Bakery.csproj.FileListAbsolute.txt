@@ -9,3 +9,14 @@
 /Users/Guest/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.pdb
 /Users/Guest/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.dll
 /Users/Guest/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.pdb
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.csprojAssemblyReference.cache
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CoreCompileInputs.cache
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfoInputs.cache
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfo.cs
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.dll
+/Users/jordansafford/Desktop/PierresBakery/obj/Debug/netcoreapp2.2/Bakery.pdb
+/Users/jordansafford/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.deps.json
+/Users/jordansafford/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.json
+/Users/jordansafford/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.dev.json
+/Users/jordansafford/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/jordansafford/Desktop/PierresBakery/bin/Debug/netcoreapp2.2/Bakery.pdb

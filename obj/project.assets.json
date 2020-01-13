@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Guest/.nuget/packages/": {},
+    "/Users/jordansafford/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/PierresBakery/Bakery.csproj",
+      "projectUniqueName": "/Users/jordansafford/Desktop/PierresBakery/Bakery.csproj",
       "projectName": "Bakery",
-      "projectPath": "/Users/Guest/Desktop/PierresBakery/Bakery.csproj",
-      "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/PierresBakery/obj/",
+      "projectPath": "/Users/jordansafford/Desktop/PierresBakery/Bakery.csproj",
+      "packagesPath": "/Users/jordansafford/.nuget/packages/",
+      "outputPath": "/Users/jordansafford/Desktop/PierresBakery/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Guest/.nuget/NuGet/NuGet.Config"
+        "/Users/jordansafford/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
