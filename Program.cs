@@ -10,12 +10,11 @@ namespace PierresBakery
         {
             Console.WriteLine("Welcome to your Pierre's Bakery!");
             Console.WriteLine("Bread is $5 per loaf and pastries are $2 each");
-            Console.WriteLine("We also have two specials today: Buy two loaves of bread & get the third free and, buy 3 pastries for $5");
-            Console.WriteLine("How many loaves of bread would you like?");            
-            Bread myBread = new Bread(0, 0);
-            string stringBreadQty = Console.ReadLine();
-            int BreadQty = int.Parse(stringBreadQty);         
-            
+            Console.WriteLine("We also have two specials today: Buy two loaves of bread & get the third free and, buy 3 pastries for $5");       
+            Bread myBread = new Bread(0);
+            Pastries myPastries = new Pastries(0);
+            Console.WriteLine("What would you like to buy?")         
+            string item 
             
         }
     }
