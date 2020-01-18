@@ -7,10 +7,9 @@ namespace PierresBakery.Models
         public int Total { get; set; }
         public int PastryQuantity { get; set; }
         
-        public Pastries(int qty, int total)
+        public Pastries(int qty)
         {
             PastryQuantity = qty;
-            Total = total;
         }
 
         public int GetCost()
@@ -18,9 +17,10 @@ namespace PierresBakery.Models
             return Cost;
         }
 
-        public int SetTotal()
+
+        public int GetTotal()
         {
-            return PastryQuantity * Cost;
+           return Cost * PastryQuantity;
         }
     }
 } 
