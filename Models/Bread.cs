@@ -4,25 +4,24 @@ namespace PierresBakery.Models
     public class Bread
     {
         public int Cost { get; } = 5;
+        public int Total { get; set; }
         public int BreadQuantity { get; set; }
 
-        public Bread(int BrdQty)
+        public Bread(int qty, int total)
         {
-            Quantity = BrdQty;        
+            BreadQuantity = qty;
+            Total = total;    
         }
 
-        public AddBread(int BrdQty)
+        public int GetCost()
         {
-            Quantity++;
-            Cost * 2;
+            return Cost;
         }
-
-        public BreadTotal(int BrdQty)
+    
+        public int SetTotal()
         {
-            Quantity * Cost
-            {
-                return BreadTotal()
-            }
+            return BreadQuantity * Cost;
+            
         }
     }
 }

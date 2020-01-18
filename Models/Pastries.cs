@@ -3,25 +3,25 @@ namespace PierresBakery.Models
 {
     public class Pastries
     {
-        public int Cost { get; } = 2; 
-        public int Quantity{ get; set; }
+        public int Cost { get; } = 2;
+        public int Total { get; set; }
+        public int PastryQuantity { get; set; }
         
-        public Pastries(int PstryQty)
+        public Pastries(int qty, int total)
         {
-            Quantity = PstryQty;
+            PastryQuantity = qty;
+            Total = total;
         }
 
-        public AddPastry(int PstryQty)
+        public int GetCost()
         {
-            Quantity++;
-            Cost += 2;
+            return Cost;
         }
 
-        public PastriesTotal(int PastryQty)
+        public int SetTotal()
         {
-            Quantity * Cost
-            {
-                return PastriesTotal()
-            }
+            return PastryQuantity * Cost;
         }
+    }
 } 
+       
